@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Days Ago Date">b5e12d964f8d2300ccb34a10a310c78f</action>
+        <cid>008a5df6-a3cf-4dbd-babf-4cd75dbbd9a1</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Calculate daysAgo Date</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-11 18:34:21</sys_created_on>
+        <sys_id>5532211a4f8d2300ccb34a10a310c7ca</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Calculate daysAgo Date</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_175159_needit_sp">4658d9d24f4d2300ccb34a10a310c7f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">4658d9d24f4d2300ccb34a10a310c7f1</sys_scope>
+        <sys_update_name>sys_hub_step_instance_5532211a4f8d2300ccb34a10a310c7ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-11 18:37:02</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5532211a4f8d2300ccb34a10a310c7ca"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5532211a4f8d2300ccb34a10a310c7ca</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-11 18:34:21</sys_created_on>
+        <sys_id>1132211a4f8d2300ccb34a10a310c7dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-11 18:34:21</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5532211a4f8d2300ccb34a10a310c7ca</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-11 18:34:21</sys_created_on>
+        <sys_id>d132211a4f8d2300ccb34a10a310c7dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-11 18:34:21</sys_updated_on>
+        <value>(function execute(inputs, outputs) { 
+
+		// Pass days_ago value into gs.daysAgo() method to get date
+		outputs.new_date = gs.daysAgo(inputs.days_ago);
+
+	})(inputs, outputs);</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5532211a4f8d2300ccb34a10a310c7ca</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-11 18:34:21</sys_created_on>
+        <sys_id>dd32211a4f8d2300ccb34a10a310c7dd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-11 18:37:02</sys_updated_on>
+        <value/>
+        <variable display_value="">d532211a4f8d2300ccb34a10a310c7cf</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5532211a4f8d2300ccb34a10a310c7ca"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>5532211a4f8d2300ccb34a10a310c7ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-11 18:34:21</sys_created_on>
+        <sys_id>d932211a4f8d2300ccb34a10a310c7dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-11 18:34:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>days_ago</field>
+        <id>5532211a4f8d2300ccb34a10a310c7ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-11 18:34:21</sys_created_on>
+        <sys_id>5d32211a4f8d2300ccb34a10a310c7dd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-11 18:37:02</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_5532211a4f8d2300ccb34a10a310c7ca</table>
+        <value>{{action.days_ago}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>5532211a4f8d2300ccb34a10a310c7ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-11 18:34:21</sys_created_on>
+        <sys_id>9d32211a4f8d2300ccb34a10a310c7dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-11 18:34:21</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
