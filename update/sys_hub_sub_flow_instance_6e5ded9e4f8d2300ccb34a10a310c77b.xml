@@ -25,20 +25,6 @@
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_sub_flow_instance</document>
         <document_key>6e5ded9e4f8d2300ccb34a10a310c77b</document_key>
-        <order>0</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-10-11 19:23:03</sys_created_on>
-        <sys_id>a25ded9e4f8d2300ccb34a10a310c782</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-11 19:23:03</sys_updated_on>
-        <value>5bc216294f012300ccb34a10a310c7b8</value>
-        <variable display_value="">743d2d9e4f8d2300ccb34a10a310c7a1</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_hub_sub_flow_instance</document>
-        <document_key>6e5ded9e4f8d2300ccb34a10a310c77b</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>

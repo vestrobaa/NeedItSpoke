@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Checkout Cart and confirm that all the items in the cart have been checked out</description>
+        <display_name>Checkout Shopping Cart</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>5</order>
+        <snapshot/>
+        <step_config display_value="Checkout Shopping Cart">9a351369536303000a51ddeeff7b125b</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:26:01</sys_created_on>
+        <sys_id>932479b24fd12300ccb34a10a310c7b8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Checkout Shopping Cart</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_175159_needit_sp">4658d9d24f4d2300ccb34a10a310c7f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">4658d9d24f4d2300ccb34a10a310c7f1</sys_scope>
+        <sys_update_name>sys_atf_step_932479b24fd12300ccb34a10a310c7b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:26:32</sys_updated_on>
+        <table/>
+        <test display_value="testCheckoutCart">a27371b24fd12300ccb34a10a310c7f1</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=932479b24fd12300ccb34a10a310c7b8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>932479b24fd12300ccb34a10a310c7b8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:26:01</sys_created_on>
+        <sys_id>3a4479b24fd12300ccb34a10a310c7b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:26:01</sys_updated_on>
+        <value/>
+        <variable display_value="">f4d2607953a303000a51ddeeff7b1263</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>932479b24fd12300ccb34a10a310c7b8</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:26:01</sys_created_on>
+        <sys_id>764479b24fd12300ccb34a10a310c7b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:26:01</sys_updated_on>
+        <value/>
+        <variable display_value="">6573647953a303000a51ddeeff7b120b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>932479b24fd12300ccb34a10a310c7b8</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:26:01</sys_created_on>
+        <sys_id>b24479b24fd12300ccb34a10a310c7b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:26:01</sys_updated_on>
+        <value/>
+        <variable display_value="">4bd3647953a303000a51ddeeff7b126a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>932479b24fd12300ccb34a10a310c7b8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:26:01</sys_created_on>
+        <sys_id>fe4479b24fd12300ccb34a10a310c7b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:26:01</sys_updated_on>
+        <value>checkout_successfull</value>
+        <variable display_value="">9c661769536303000a51ddeeff7b12d0</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=932479b24fd12300ccb34a10a310c7b8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>delivery_address</field>
+        <id>932479b24fd12300ccb34a10a310c7b8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:26:01</sys_created_on>
+        <sys_id>f64479b24fd12300ccb34a10a310c7b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:26:01</sys_updated_on>
+        <table>var__m_atf_input_variable_9a351369536303000a51ddeeff7b125b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_for</field>
+        <id>932479b24fd12300ccb34a10a310c7b8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:26:01</sys_created_on>
+        <sys_id>7e4479b24fd12300ccb34a10a310c7b0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:26:32</sys_updated_on>
+        <table>var__m_atf_input_variable_9a351369536303000a51ddeeff7b125b</table>
+        <value>{{step['8d54f9b24fd12300ccb34a10a310c7a5'].user}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>special_instructions</field>
+        <id>932479b24fd12300ccb34a10a310c7b8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:26:01</sys_created_on>
+        <sys_id>ba4479b24fd12300ccb34a10a310c7b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:26:01</sys_updated_on>
+        <table>var__m_atf_input_variable_9a351369536303000a51ddeeff7b125b</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

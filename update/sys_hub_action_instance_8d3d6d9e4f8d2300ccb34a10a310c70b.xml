@@ -5,7 +5,7 @@
         <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
         <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
         <comment>Create the overdue reason task to Fred Luddy</comment>
-        <compiled_snapshot display_value="Create Task">2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
+        <compiled_snapshot>2b3a6335531003003bf1d9109ec58759</compiled_snapshot>
         <display_text/>
         <flow display_value="Handle Overdue NeedIt Tasks">703d2d9e4f8d2300ccb34a10a310c79d</flow>
         <order>3</order>

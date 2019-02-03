@@ -5,7 +5,7 @@
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
         <comment>Write the closure Reason to the system log</comment>
-        <compiled_snapshot display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="Handle Overdue NeedIt Tasks">703d2d9e4f8d2300ccb34a10a310c79d</flow>
         <order>2</order>

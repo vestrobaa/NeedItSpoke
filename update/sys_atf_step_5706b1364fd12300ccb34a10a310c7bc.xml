@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Validate there is at least one record in 'sc_req_item' matching query:
+Request = {{Step 5: Checkout Shopping Cart.Request}}
+With a failure timeout of 5 Seconds</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>6</order>
+        <snapshot/>
+        <step_config display_value="Record Query">0270b8005f30220012b44adb7f46666a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:34:24</sys_created_on>
+        <sys_id>5706b1364fd12300ccb34a10a310c7bc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_175159_needit_sp">4658d9d24f4d2300ccb34a10a310c7f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">4658d9d24f4d2300ccb34a10a310c7f1</sys_scope>
+        <sys_update_name>sys_atf_step_5706b1364fd12300ccb34a10a310c7bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 20:28:42</sys_updated_on>
+        <table>sc_req_item</table>
+        <test display_value="testCheckoutCartInPortal">60657df24fd12300ccb34a10a310c7f4</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5706b1364fd12300ccb34a10a310c7bc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5706b1364fd12300ccb34a10a310c7bc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:34:24</sys_created_on>
+        <sys_id>213671364fd12300ccb34a10a310c736</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:34:24</sys_updated_on>
+        <value>records_match_query</value>
+        <variable display_value="">dd091e22675003007ba405225685ef69</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5706b1364fd12300ccb34a10a310c7bc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:34:24</sys_created_on>
+        <sys_id>253671364fd12300ccb34a10a310c736</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:34:24</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="">6fe5f8405f30220012b44adb7f4666e4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5706b1364fd12300ccb34a10a310c7bc</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:34:24</sys_created_on>
+        <sys_id>e53671364fd12300ccb34a10a310c736</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:34:24</sys_updated_on>
+        <value>request={{step['c6f5b1364fd12300ccb34a10a310c783'].request_id}}^EQ</value>
+        <variable display_value="">cf167c405f30220012b44adb7f46660d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5706b1364fd12300ccb34a10a310c7bc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>5706b1364fd12300ccb34a10a310c7bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:34:24</sys_created_on>
+        <sys_id>ad3671364fd12300ccb34a10a310c735</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:34:24</sys_updated_on>
+        <table>var__m_atf_input_variable_0270b8005f30220012b44adb7f46666a</table>
+        <value>request={{step['c6f5b1364fd12300ccb34a10a310c783'].request_id}}^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>5706b1364fd12300ccb34a10a310c7bc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:34:24</sys_created_on>
+        <sys_id>e93671364fd12300ccb34a10a310c735</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:34:24</sys_updated_on>
+        <table>var__m_atf_input_variable_0270b8005f30220012b44adb7f46666a</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

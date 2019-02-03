@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Add item to cart and confirm addition of item to cart</description>
+        <display_name>Add Item to Shopping Cart (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>4</order>
+        <snapshot/>
+        <step_config display_value="Add Item to Shopping Cart (SP)">00696ee073330300688e0d573cf6a71a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:33:05</sys_created_on>
+        <sys_id>19e5fdf24fd12300ccb34a10a310c780</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Item to Shopping Cart (SP)</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_175159_needit_sp">4658d9d24f4d2300ccb34a10a310c7f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">4658d9d24f4d2300ccb34a10a310c7f1</sys_scope>
+        <sys_update_name>sys_atf_step_19e5fdf24fd12300ccb34a10a310c780</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:33:05</sys_updated_on>
+        <table/>
+        <test display_value="testCheckoutCartInPortal">60657df24fd12300ccb34a10a310c7f4</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=19e5fdf24fd12300ccb34a10a310c780"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>19e5fdf24fd12300ccb34a10a310c780</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:33:05</sys_created_on>
+        <sys_id>9ae57df24fd12300ccb34a10a310c746</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:33:05</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="">25abf57873730300688e0d573cf6a7af</variable>
+    </sys_variable_value>
+</record_update>

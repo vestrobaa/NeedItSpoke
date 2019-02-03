@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Answer the questions on the form as follows:
+CPU Speed = Intel Xeon Processor (3.00GHz 1.333GHz FSB)
+and Hard Drive = 250GB
+and Memory = 2GB
+and Operating System = Windows XP Professional</description>
+        <display_name>Set Variable Values (SP)</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Set Variable Values (SP)">2e4229b48703030070870cf888cb0b5c</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:32:52</sys_created_on>
+        <sys_id>5eb57df24fd12300ccb34a10a310c7fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Variable Values (SP)</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_175159_needit_sp">4658d9d24f4d2300ccb34a10a310c7f1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">4658d9d24f4d2300ccb34a10a310c7f1</sys_scope>
+        <sys_update_name>sys_atf_step_5eb57df24fd12300ccb34a10a310c7fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:32:52</sys_updated_on>
+        <table/>
+        <test display_value="testCheckoutCartInPortal">60657df24fd12300ccb34a10a310c7f4</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5eb57df24fd12300ccb34a10a310c7fb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5eb57df24fd12300ccb34a10a310c7fb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:32:52</sys_created_on>
+        <sys_id>3ad5fdf24fd12300ccb34a10a310c77d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:32:52</sys_updated_on>
+        <value>IO:e46305fbc0a8010a01f7d51642fd6737=3000^IO:e4630669c0a8010a01f7d51690673603=250^IO:e463064ac0a8010a01f7d516207cd5ab=2000^IO:e4630688c0a8010a01f7d516f68c1504=Windows XP Professional^EQ</value>
+        <variable display_value="">3f3525f48703030070870cf888cb0b37</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5eb57df24fd12300ccb34a10a310c7fb</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 19:32:52</sys_created_on>
+        <sys_id>fad5fdf24fd12300ccb34a10a310c77d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 19:32:52</sys_updated_on>
+        <value>e46305bdc0a8010a00645e608031eb0f</value>
+        <variable display_value="">d164adb48703030070870cf888cb0b30</variable>
+    </sys_variable_value>
+</record_update>

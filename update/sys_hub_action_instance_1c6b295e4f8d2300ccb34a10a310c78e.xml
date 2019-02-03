@@ -5,7 +5,7 @@
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent/>
         <comment>Write the closure Reason to the system log</comment>
-        <compiled_snapshot display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
+        <compiled_snapshot>5bc1bcc6531003003bf1d9109ec587d4</compiled_snapshot>
         <display_text/>
         <flow display_value="Handle Overdue NeedIt Tasks">2b39611e4f8d2300ccb34a10a310c7cd</flow>
         <order>2</order>
@@ -30,24 +30,24 @@
         <field>log_message</field>
         <id>1c6b295e4f8d2300ccb34a10a310c78e</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-10-11 19:22:22</sys_created_on>
-        <sys_id>243d2d9e4f8d2300ccb34a10a310c77b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-11 19:22:22</sys_updated_on>
-        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
-        <value>{{subflow.reason}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>log_message</field>
-        <id>1c6b295e4f8d2300ccb34a10a310c78e</id>
-        <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-11 19:14:26</sys_created_on>
         <sys_id>d86b295e4f8d2300ccb34a10a310c793</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-10-11 19:14:26</sys_updated_on>
         <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
+        <value>{{subflow.reason}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>1c6b295e4f8d2300ccb34a10a310c78e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-11 19:22:22</sys_created_on>
+        <sys_id>243d2d9e4f8d2300ccb34a10a310c77b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-11 19:22:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
         <value>{{subflow.reason}}</value>
     </sys_element_mapping>
 </record_update>
